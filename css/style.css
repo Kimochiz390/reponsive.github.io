@@ -157,7 +157,10 @@ body {
   @media (max-width: 600px) {
     .btn:link, .btn:visited {
       font-size: 2rem; } }
-
+.btn-course {
+    position: absolute;
+    left: 38%;
+}
 .btn--white {
   color: #777777;
   background-color: #fff; }
