@@ -1,0 +1,24 @@
+
+.enroll{
+    background-image: radial-gradient(150% 200% ellipse at -15%, rgba($color-white,.8) 50%, transparent 50%),
+    url("/img/background3.jpg");
+    background-size: cover;
+    box-shadow: 0 1.5rem 4rem rgba($color-black,.2);
+    height: 50rem;
+    border-radius: 5rem;
+    position: relative;
+    &__form{
+        padding: 6rem;
+        width: 50%;
+        &__group{
+            position: relative;
+        }
+    }
+    @include respond(phone){
+        height: 70rem;       
+    }
+}
+.custom{
+    left: 10rem;
+    top: 3rem;
+}
